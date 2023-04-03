@@ -1,0 +1,563 @@
+/* variables.module.scss */
+$primary-color: #0070f3;
+$horizontalPadding: 10%;
+$blackColor: #000000;
+$horizontalPadding: 10%;
+$boxShadow: 2px 5px 20px -3px #0000005c;
+$transition: all 0.5s ease-in-out;
+.paddingHorizontal {
+  padding: 10px 10%;
+}
+.bars {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  color: #ffffff;
+  padding: 20px;
+  background-color: $primary-color;
+  border-radius: 51% 49% 50% 50% / 30% 30% 70% 70%;
+  transition: $transition;
+  &:hover {
+    box-shadow: inset $boxShadow;
+    scale: 0.98;
+    cursor: pointer;
+  }
+}
+.displayRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.columnDisplay {
+  display: flex;
+  flex-direction: column;
+}
+.page {
+  padding-top: 70px;
+}
+.heading {
+  color: $blackColor;
+  span {
+    color: $primary-color;
+  }
+}
+//************************************Navigation Bar Css Module
+.navigation {
+  z-index: 111;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px $horizontalPadding;
+  backdrop-filter: blur(4px);
+  position: fixed;
+  width: 100%;
+  a {
+    text-decoration: none;
+    transition: $transition;
+  }
+}
+.loginBtn {
+  background-color: $primary-color;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  &:hover {
+    scale: 0.98;
+    box-shadow: inset $boxShadow;
+  }
+}
+.signupBtn {
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: white;
+  color: $primary-color;
+  margin-left: 10px;
+  &:hover {
+    scale: 0.98;
+    box-shadow: inset $boxShadow;
+  }
+}
+.navbarAvatar {
+  border-radius: 50%;
+  background-color: $primary-color;
+  color: #ffffff;
+  transition: $transition;
+  margin-left: 10px;
+  &:hover {
+    cursor: pointer;
+    box-shadow: inset $boxShadow;
+    scale: 0.98;
+  }
+}
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 50px;
+  input {
+    width: 400px;
+    border: 1px solid #eeeeee;
+    margin-right: 20px;
+    &:hover {
+      box-shadow: inset $boxShadow;
+    }
+  }
+  a {
+    border-radius: 50px;
+    transition: $transition;
+    &:hover {
+      color: #eeeeee;
+    }
+  }
+}
+.avatarDiv {
+  position: absolute;
+  background-color: #ffffff;
+  box-shadow: $boxShadow;
+  border-radius: 10px;
+  width: 200px;
+  padding: 10px;
+  span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #eeeeee;
+    transition: $transition;
+    cursor: pointer;
+    &:hover {
+      color: $primary-color;
+    }
+  }
+  .avatorNavIcon {
+    color: $primary-color;
+    margin-right: 10px;
+  }
+}
+//************************************Blogs
+.individualBlogs {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 20px 0px;
+  .imageContainer {
+    width: 40%;
+    transition: $transition;
+    overflow: hidden;
+    img {
+      width: 100%;
+      image-rendering: optimizeQuality;
+      transition: $transition;
+    }
+    &:hover {
+      img {
+        scale: 1.2;
+      }
+    }
+  }
+  .blogcontent {
+    width: 60%;
+    padding: 0px 20px;
+    small {
+      b {
+        margin: 0px 5px;
+      }
+      span {
+        color: $primary-color;
+      }
+    }
+    a {
+      padding: 10px 20px;
+      background-color: $primary-color;
+      color: #ffffff;
+      border-radius: 20px;
+      font-size: 16px;
+      text-decoration: none;
+      transition: $transition;
+      &:hover {
+        box-shadow: inset $boxShadow;
+        scale: 0.98;
+      }
+    }
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.pageLink {
+  cursor: pointer;
+}
+
+/* pagination pageItem */
+.pageItem {
+  display: flex;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+/* pagination page item when active */
+.pageItemActive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid #eaeaea;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: $primary-color;
+
+  .pageLink {
+    color: white;
+  }
+}
+//******************************************readmore
+.readmorePage {
+  padding: 20px 15%;
+  width: 100%;
+  .readmorePageImage {
+    width: 100%;
+    img {
+      width: 100%;
+      height: 80vh;
+    }
+  }
+  .readmorePagecontent {
+    small {
+      span {
+        color: $primary-color;
+      }
+      b {
+        margin: 0px 10px;
+      }
+    }
+  }
+}
+.commentContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 15%;
+  input {
+    border: 1px solid #eeeeee;
+    margin-right: 10px;
+    width: 300px;
+  }
+  button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: $primary-color;
+    transition: $transition;
+    .sendIcon {
+      color: #ffffff;
+    }
+    &:hover {
+      scale: 0.98;
+      box-shadow: inset $boxShadow;
+    }
+  }
+}
+.listedComment {
+  padding: 10px 15%;
+  .individualListedComments {
+    border: 1px solid #eeeeee;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    width: 400px;
+    margin-bottom: 20px;
+    .listedCommentContent {
+      display: flex;
+      flex-direction: column;
+      b {
+        color: $primary-color;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 2px;
+      }
+      small {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.loginPage {
+  display: flex;
+  flex-direction: row;
+  padding: 0px $horizontalPadding;
+  align-items: center;
+  background-color: $primary-color;
+  justify-content: center;
+  height: 100vh;
+  form {
+    background-color: #ffffff;
+    box-shadow: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 30%;
+    align-items: center;
+  }
+  input {
+    border: 1px solid #eeeeee;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  h3 {
+    text-transform: uppercase;
+  }
+  .formLoginBtn {
+    padding: 10px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    button {
+      background-color: $primary-color;
+      color: #ffffff;
+      transition: $transition;
+      &:hover {
+        box-shadow: inset $boxShadow;
+        scale: 0.98;
+      }
+    }
+  }
+}
+
+//************************************Signup Successfully Pop up
+.signupPopUp {
+  position: fixed;
+  width: 20%;
+  left: 40%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: $boxShadow;
+  padding: 20px 0px;
+  p {
+    color: rgb(131, 206, 19);
+  }
+  button {
+    background-color: $primary-color;
+    color: #ffffff;
+    transition: $transition;
+    &:hover {
+      scale: 0.98;
+      box-shadow: inset $boxShadow;
+    }
+  }
+}
+//************************Admin Dashboard
+.dashboard {
+  transition: $transition;
+  display: flex;
+  flex-direction: row;
+  .adminNav {
+    z-index: 101;
+    position: fixed;
+    width: 22%;
+    background-color: $primary-color;
+    height: 100vh;
+    color: #ffffff;
+    padding: 20px;
+    span {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      border: 1px solid #ffffff;
+      padding: 0px 20px;
+      border-radius: 50px;
+      margin-bottom: 20px;
+      transition: $transition;
+      p {
+        margin-left: 20px;
+      }
+      &:hover {
+        color: $primary-color;
+        background-color: #ffffff;
+        cursor: pointer;
+        scale: 0.98;
+      }
+    }
+
+    h3 {
+      display: flex;
+      flex-direction: row;
+      font-size: 20px;
+      align-items: center;
+      justify-content: space-between;
+      .close {
+        border-radius: 50%;
+        transition: $transition;
+        cursor: pointer;
+        &:hover {
+          scale: 0.98;
+          color: #eeeeee;
+        }
+      }
+    }
+  }
+}
+.dashboardMainDiv {
+  min-height: 100vh;
+  width: 78%;
+  padding: 20px 10%;
+
+  h1 {
+    text-transform: capitalize;
+    span {
+      color: $primary-color;
+    }
+  }
+  .listedAdminBlogs {
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-between;
+
+    flex-wrap: wrap;
+    .individualAdminListedBlogs {
+      box-shadow: $boxShadow;
+      display: flex;
+      margin: 20px 10px;
+      flex-direction: column;
+      width: 30%;
+      height: 50vh;
+      transition: $transition;
+      overflow: hidden;
+
+      img {
+        transition: $transition;
+        width: 100%;
+        height: 60%;
+      }
+      .adminDashboardBlogContent {
+        position: relative;
+        padding: 10px;
+        p {
+          font-size: 18px;
+          margin: 2px 0px;
+          font-weight: 800;
+        }
+        small {
+          font-size: 16px;
+          span {
+            color: $primary-color;
+          }
+        }
+        .optionsBtn {
+          position: absolute;
+
+          right: 20px;
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-end;
+          .deleteBlogIcon {
+            color: #ffffff;
+            padding: 5px;
+            background-color: red;
+            border-radius: 50px;
+            $transition: $transition;
+            &:hover {
+              transition: $transition;
+              scale: 0.98;
+              box-shadow: inset $boxShadow;
+            }
+          }
+        }
+      }
+      &:hover {
+        scale: 1.05;
+        img {
+          scale: 1.1;
+        }
+      }
+    }
+  }
+}
+
+// *******************Create Post
+.createPost {
+  padding: 20px 30%;
+  display: flex;
+  flex-direction: column;
+  // flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+
+  input,
+  textarea {
+    margin: 10px;
+    border: 1px solid #eeeeee;
+    width: 500px;
+    outline: none;
+  }
+  textarea {
+    height: 20vh;
+  }
+
+  .createPostBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    button {
+      background-color: $primary-color;
+      color: white;
+      margin: 10px;
+      transition: $transition;
+      &:hover {
+        transition: $transition;
+        scale: 0.98;
+        box-shadow: inset $boxShadow;
+      }
+    }
+  }
+}
+.uploadImage {
+  padding: 20px 30%;
+  display: flex;
+  justify-content: center;
+  background-color: #eaeaea;
+  div {
+    display: flex;
+    flex-direction: row;
+    .uploadBtn {
+      display: flex;
+      flex-direction: column;
+      button {
+        background-color: $primary-color;
+        color: #ffffff;
+        width: 200px;
+        margin: 20px;
+        transition: $transition;
+        &:hover {
+          box-shadow: inset $boxShadow;
+          scale: 0.98;
+        }
+      }
+    }
+  }
+}
