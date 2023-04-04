@@ -7,3 +7,7 @@
 <li>NEXT_PUBLIC_ADMIN_PASSWORD = admin</li>
 <li>NEXT_PUBLIC_MONGODB_URI=mongodb://127.0.0.1:27017/</li>
 <h2>Create Database with name IMT-BLOG and collection posts,user and comments and push posts.json into posts collection </h2>
+<h2>For Admin Login visit /admin_login</h2>
+<h1>Some Screenshots : </h1>
+<img src="" alt="not found"/>
+<br>
