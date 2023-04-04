@@ -4,12 +4,6 @@ import Image from "next/image";
 import Layout from "@/components/layout";
 import styles from "../../styles/variable.module.scss";
 import Link from "next/link";
-import Pagination from "@/components/Pagination";
-import { useState } from "react";
-import { paginate } from "../../components/paginated";
-// import styles from "@/styles/Home.module.css";
-
-// const inter = Inter({ subsets: ["latin"] });
 
 export default function Home({ data }) {
   return data.length ? (
