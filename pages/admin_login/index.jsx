@@ -3,10 +3,11 @@ import styles from "../../styles/variable.module.scss";
 import Head from "next/head";
 import { useState } from "react";
 import { getCookie } from "cookies-next";
+import Router from "next/router";
 
 function AdminLogin() {
   if (getCookie("admin_username") === process.env.NEXT_PUBLIC_ADMIN_USERNAME) {
-    window.location.href = "/Admin";
+    Router.push("/Admin");
   }
 
   const [login, setLogin] = useState({
@@ -29,7 +30,7 @@ function AdminLogin() {
       setError(result.message);
     }
     if (result.status == "200") {
-      window.location.href = "/Admin";
+      Router.push("/Admin");
     }
   };
 
