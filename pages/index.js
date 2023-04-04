@@ -42,7 +42,7 @@ export default function Home({ data }) {
                 id={element._id}
                 author={element.author}
                 published={element.date}
-                smallContent={element.smallContent}
+                smallContent={element.smallContent.substr(0, 200) + "..."}
                 title={element.title}
                 image={element.image}
                 key={"individual-blogs" + index}
