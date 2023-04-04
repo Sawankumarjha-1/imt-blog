@@ -2,12 +2,12 @@ import Image from "next/image";
 import styles from "../../styles/variable.module.scss";
 import Head from "next/head";
 import { useState } from "react";
-import { useRouter } from "next/router";
+import Router from "next/router";
 import { hasCookie, getCookie } from "cookies-next";
 
 function Login() {
   if (hasCookie("email")) {
-    window.location.href = "/";
+    Router.push("/");
   }
   const [login, setLogin] = useState({
     username: "",
@@ -30,7 +30,7 @@ function Login() {
       setError(result.message);
     }
     if (result.status == "200") {
-      window.location.href = "/";
+      Router.push("/");
     }
   };
 
