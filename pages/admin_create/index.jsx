@@ -1,13 +1,11 @@
-import Head from "next/head";
-
-import Layout from "@/components/layout";
 import styles from "../../styles/variable.module.scss";
-
+import Image from "next/image";
 import dynamic from "next/dynamic";
 import "suneditor/dist/css/suneditor.min.css";
 import { useEffect, useState } from "react";
-import { getCookie, deleteCookie } from "cookies-next";
+import { getCookie } from "cookies-next";
 import DashboardNav from "@/components/DashboardNav";
+import Router from "next/router";
 const SunEditor = dynamic(() => import("suneditor-react"), {
   ssr: false,
 });
@@ -17,11 +15,11 @@ export default function Create() {
     if (
       !(getCookie("admin_username") == process.env.NEXT_PUBLIC_ADMIN_USERNAME)
     ) {
-      window.location.href = "/admin_login";
+      Router.push("/admin_login");
     }
   }, []);
   const [image, setImage] = useState(null);
-  const [createObjectURL, setCreateObjectURL] = useState(null);
+  const [createObjectURL, setCreateObjectURL] = useState("");
   const [uploadDisable, setUploadDisable] = useState(false);
   const [content, setContent] = useState("");
   const [data, setData] = useState({
@@ -100,7 +98,7 @@ export default function Create() {
       }
       if (result.status == "200") {
         alert("Blog Submit Successfully");
-        window.location.href = "/admin_create";
+        Router.push("/admin_create");
       }
     }
   };
@@ -116,7 +114,12 @@ export default function Create() {
       >
         <div className={styles.uploadImage}>
           <div>
-            <img src={createObjectURL} width="200" height="200" />
+            <Image
+              src={createObjectURL}
+              width="200"
+              height="200"
+              alt="No Image"
+            />
 
             <div className={styles.uploadBtn}>
               <input type="file" name="myImage" onChange={uploadToClient} />
