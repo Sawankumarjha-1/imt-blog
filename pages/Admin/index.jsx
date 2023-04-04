@@ -4,16 +4,15 @@ import styles from "../../styles/variable.module.scss";
 import { AiFillDelete } from "react-icons/ai";
 import { useEffect, useState } from "react";
 import { getCookie } from "cookies-next";
-import { useRouter } from "next/router";
+import Router from "next/router";
 import DashboardNav from "@/components/DashboardNav";
 
 export default function AdminDashboard({ data }) {
-  const Router = useRouter();
   useEffect(() => {
     if (
       !(getCookie("admin_username") == process.env.NEXT_PUBLIC_ADMIN_USERNAME)
     ) {
-      window.location.href = "/admin_login";
+      Router.push("/admin_login");
     }
   }, []);
   const [navDisplay, setNavDisplay] = useState(false);
