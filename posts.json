@@ -1,0 +1,101 @@
+[{
+  "_id": {
+    "$oid": "64292f89487a1bee3a46fb41"
+  },
+  "title": "Lorem ipsum dolor sit amet",
+  "author": "John Doe",
+  "date": "2023-04-02",
+  "smallContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et risus eu velit suscipit fringilla. Pellentesque pretium commodo risus, quis bibendum eros venenatis sit amet.",
+  "bigContent": "Sed euismod neque id ante commodo, ut elementum enim dapibus. Duis eget velit quis libero posuere vulputate. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris ultrices justo in convallis sollicitudin. Ut imperdiet ante sit amet purus bibendum, ac malesuada odio malesuada. Cras vitae fermentum quam. Vestibulum maximus ullamcorper odio, eget pulvinar velit blandit eu. Curabitur volutpat tristique tortor, ac vulputate sapien rutrum at. Curabitur euismod est eget consectetur aliquam. Sed molestie eros id libero pharetra, in vestibulum ex commodo. Curabitur id massa ut ipsum pulvinar placerat. Sed hendrerit libero vel nibh eleifend commodo. Donec vel mauris quis lacus auctor commodo.",
+  "image": "/images/blog1.jpg"
+},{
+  "_id": {
+    "$oid": "642ab8fd18dd348d42ec1378"
+  },
+  "title": "Lorem ipsum dolor sit amet",
+  "author": "John Doe",
+  "date": "2023-04-02",
+  "smallContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et risus eu velit suscipit fringilla. Pellentesque pretium commodo risus, quis bibendum eros venenatis sit amet.",
+  "bigContent": "Sed euismod neque id ante commodo, ut elementum enim dapibus. Duis eget velit quis libero posuere vulputate. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris ultrices justo in convallis sollicitudin. Ut imperdiet ante sit amet purus bibendum, ac malesuada odio malesuada. Cras vitae fermentum quam. Vestibulum maximus ullamcorper odio, eget pulvinar velit blandit eu. Curabitur volutpat tristique tortor, ac vulputate sapien rutrum at. Curabitur euismod est eget consectetur aliquam. Sed molestie eros id libero pharetra, in vestibulum ex commodo. Curabitur id massa ut ipsum pulvinar placerat. Sed hendrerit libero vel nibh eleifend commodo. Donec vel mauris quis lacus auctor commodo.",
+  "image": "/images/blog1.jpg"
+},{
+  "_id": {
+    "$oid": "642ab8fd18dd348d42ec1379"
+  },
+  "title": "Suspendisse potenti",
+  "author": "Jane Smith",
+  "date": "2023-04-01",
+  "smallContent": "Suspendisse potenti. Proin ac quam vel ante vulputate eleifend. Nullam convallis purus et nisl bibendum, in semper enim lobortis. Nulla sollicitudin orci augue, vel iaculis augue egestas vel.",
+  "bigContent": "Phasellus aliquet diam ut libero facilisis, eget ultricies ipsum congue. Fusce maximus eros quis urna posuere, sed suscipit dolor iaculis. Integer quis odio ut augue imperdiet venenatis in quis leo. Suspendisse et aliquet nisi, ac ullamcorper augue. Pellentesque eleifend elit ac velit ornare, in sagittis magna euismod. Sed eget laoreet urna. Vivamus sed turpis aliquam, bibendum mauris vel, feugiat ipsum. Curabitur imperdiet, augue sed tristique malesuada, quam turpis egestas ante, vel luctus velit sem non metus. Duis tincidunt, metus nec iaculis ullamcorper, mi sapien vestibulum risus, sit amet fringilla turpis arcu a risus. Aliquam nec justo ac erat fringilla aliquet ut a nibh. Praesent euismod dapibus ipsum eu egestas. Praesent a ligula vel nisi dapibus tincidunt ut nec elit. Curabitur sodales nunc sed lacus rutrum laoreet. Donec nec orci non nisi congue congue vel id nibh.",
+  "image": "/images/blog2.jpg"
+},{
+  "_id": {
+    "$oid": "642ab8fd18dd348d42ec137a"
+  },
+  "title": "Etiam molestie semper",
+  "author": "Michael Johnson",
+  "date": "2023-03-31",
+  "smallContent": "Etiam molestie semper odio, non ultricies augue ullamcorper vel. Fusce consequat elit id ante mollis venenatis. Aliquam erat volutpat. Maecenas porttitor tellus a diam gravida, nec rhoncus magna elementum.",
+  "bigContent": "Nulla interdum pharetra enim, eget varius justo rhoncus sed. Ut et ipsum sit amet eros aliquet eleifend. Suspendisse quis mi vel ipsum congue tincidunt. Pellentesque pellentesque fringilla nisi in finibus. Nullam viverra augue in erat volutpat iaculis. Integer quis velit enim. Praesent maximus quam sed ante ornare, a elementum odio suscipit. Etiam vel sem leo. Nullam aliquam massa libero, eu accumsan elit posuere a. Duis at odio vel enim lobortis sollicitudin.",
+  "image": "/images/blog3.jpg"
+},{
+  "_id": {
+    "$oid": "642ab8fd18dd348d42ec137b"
+  },
+  "title": "Morbi varius lorem ac lectus tincidunt",
+  "author": "Sarah Lee",
+  "date": "2023-03-30",
+  "smallContent": "Morbi varius lorem ac lectus tincidunt, a dapibus augue fringilla. Sed tincidunt posuere justo, ac venenatis risus pellentesque eu. Ut ut nulla eget massa vehicula dapibus.",
+  "bigContent": "Duis nec risus eget turpis consequat dignissim. Praesent ullamcorper, ipsum sed convallis aliquet, est nisl elementum tellus, sed dignissim odio elit vitae velit. In nec urna et purus porttitor imperdiet. Suspendisse euismod, leo nec suscipit ultrices, dolor enim aliquam lacus, sit amet consequat ex arcu vel metus. Etiam at neque mi. Fusce condimentum sapien sed velit tincidunt, non bibendum lacus gravida. Nam laoreet bibendum augue, at lacinia velit bibendum ut. Sed volutpat felis ut sem eleifend vestibulum. Pellentesque eleifend arcu nisl, vel consequat purus tincidunt a. Proin varius massa nec tellus tempor, et laoreet quam pretium. Integer at nisl sit amet justo tincidunt convallis. Suspendisse sed turpis quam. Vivamus bibendum ex vel orci vehicula, eget tristique ipsum hendrerit. Donec venenatis ullamcorper leo, vitae consequat justo placerat eu.",
+  "image": "/images/blog4.jpg"
+},{
+  "_id": {
+    "$oid": "642ab8fd18dd348d42ec137c"
+  },
+  "title": "Pellentesque id sem id leo ultrices",
+  "author": "Daniel Kim",
+  "date": "2023-03-29",
+  "smallContent": "Pellentesque id sem id leo ultrices euismod. Praesent euismod augue ac nisl malesuada tempus. Integer ut libero nec turpis ultrices gravida vel et enim.",
+  "bigContent": "Donec eget velit eu nisl blandit feugiat. Proin vel elit ut felis vehicula laoreet quis a arcu. Sed at est blandit, consequat orci nec, imperdiet lorem. Ut viverra lorem vel turpis pellentesque blandit. Nulla finibus sem in tellus vestibulum interdum. Integer ornare ultricies elit, at euismod odio pharetra nec. Sed varius erat sit amet erat lacinia hendrerit. Suspendisse potenti. Nunc eget ipsum id mauris pretium pharetra eu vel turpis. Duis ut mauris quis nisl faucibus elementum. Duis at augue eget lorem bibendum mollis nec a nulla. Curabitur vel augue ut mi vestibulum euismod. Nulla lobortis congue sapien quis tincidunt. Nam cursus arcu nec mi vehicula, quis posuere metus molestie. Aliquam malesuada augue a eros lobortis, vel bibendum eros venenatis.",
+  "image": "/images/blog5.jpg"
+},{
+  "_id": {
+    "$oid": "642ab8fd18dd348d42ec137d"
+  },
+  "title": "Vestibulum maximus odio sed finibus",
+  "author": "Emily Davis",
+  "date": "2023-03-28",
+  "smallContent": "Vestibulum maximus odio sed finibus dignissim. Duis consequat enim a luctus vestibulum. Maecenas quis lectus non augue ultrices euismod.",
+  "bigContent": "Vivamus fringilla urna a aliquet congue. Duis blandit risus vel nunc blandit auctor. Sed a enim posuere, interdum risus vel, hendrerit turpis. Sed eget vestibulum metus, ac malesuada orci. In dapibus elit a diam bibendum posuere. Suspendisse potenti. In sit amet augue vel libero pharetra blandit. Fusce accumsan mi ac enim scelerisque varius. Pellentesque in commodo lectus. Vivamus eu tortor at quam maximus luctus vel vel neque. Nulla nec commodo massa. Donec vel commodo nulla. Aliquam id metus volutpat, vestibulum metus vel, faucibus magna.",
+  "image": "/images/blog6.jpg"
+},{
+  "_id": {
+    "$oid": "642ab8fd18dd348d42ec137e"
+  },
+  "title": "In at nulla euismod",
+  "author": "Jonathan Perez",
+  "date": "2023-03-27",
+  "smallContent": "In at nulla euismod, sollicitudin purus ac, molestie nunc. Integer id efficitur nibh, sed laoreet velit. Proin id ligula bibendum, congue lorem vitae, vulputate elit.",
+  "bigContent": "Suspendisse potenti. Duis at nisi eleifend, tempor ante sed, interdum ex. Aenean ac est in sem pharetra sagittis. Sed sit amet tellus ultricies, bibendum ex vel, facilisis magna. Sed interdum eleifend ex, at euismod nunc dapibus vel. Nulla et sapien auctor, ornare libero eu, efficitur nisi. Aliquam erat volutpat. Integer in consectetur velit, in luctus erat. Integer ut efficitur nisi. Donec bibendum ligula eu ligula tristique faucibus. Nunc bibendum enim id odio efficitur, sit amet venenatis mauris auctor. Nam iaculis nibh at ligula ornare, sed fringilla augue porttitor. Suspendisse potenti. In nec elit bibendum, rutrum risus at, maximus sem. Cras pellentesque lectus vel ante lobortis feugiat.",
+  "image": "/images/blog7.jpg"
+},{
+  "_id": {
+    "$oid": "642aef02d4ab56cd49d3d13f"
+  },
+  "title": "Top 5 New Emerging Technological Trends You Need to Know in 2023",
+  "author": "Sawan Kumar Jha",
+  "smallContent": "We’ve benefited from recent technological trends and advances because they allow us to improve and develop new products and services. With the world becoming more connected, staying up to date on the new emerging technology trends is critical.\n\nIn this article, we have explained the top 5 emerging technological trends you need to know in 2023. Learn to know more about these 5 new emerging technological trends.",
+  "bigContent": "<p>​<br></p><p><u>We’ve benefited from recent&nbsp;technological trends&nbsp;and advances because they allow us to improve and develop new products and services. With the world becoming more connected, staying up to date on the&nbsp;new emerging technology trends&nbsp;is critical.</u></p><p>In this article, we have explained the&nbsp;top 5 emerging technological trends&nbsp;you need to know in 2023. Learn to know more about these&nbsp;5 new emerging technological trends.</p><p><br></p><h4>What’s on Gartner’s Emerging Technologies and Trends Impact Radar for 2023?</h4><p>These trends were identified in our Gartner Emerging Technologies and these&nbsp;emerging technological trends&nbsp;impact Radar for 2023, which identifies 26 emerging trends and technologies to which vendors must respond, whether they are new or established players in that space.</p><p>The Impact Radar depicts technology maturity, influence, and market momentum, making it a useful tool for product leaders to identify and track the technologies. And these trends will help improve and differentiate their products, remain competitive, and capitalize on market opportunities.</p>",
+  "date": "2023-04-03T20:50",
+  "image": "/images/blog8.jpg"
+},{
+  "_id": {
+    "$oid": "642ba90246603dfe87098b43"
+  },
+  "title": "Rahul Gandhi appeal: 'Only Narendra Modi could have filed defamation case, not all with Modi surname' and six other arguments",
+  "author": "Sawan Kumar Jha",
+  "smallContent": "As reported earlier, Congress leader Rahul Gandhi has moved an appeal challenging his conviction and sentence by a magistrate court in Surat in a criminal defamation case filed against him in 2019.\n\nHe was convicted on a complaint filed by a former BJP Member of Legislative Assembly Purnesh Modi, who claimed that he had defamed the entire Modi community in a campaign speech at Kolar nearly four years ago. Gandhi had purportedly said, \"Nirav Modi, Lalit Modi, Narendra Modi. How come all the thieves have 'Modi' as a common surname?",
+  "bigContent": "<p>​<br></p><p>Gandhi has challenged chis conviction, through a legal team of Senior Advocate&nbsp;RS Cheema&nbsp;and Advocates Kirit Panwala and Tarannum Cheema.</p><p>In his appeal against his conviction and sentence, Gandhi has taken several grounds ranging from the complaint being a politically motivated one to the complainant having no right to file the complaint.</p><p>Here are the seven main grounds argued by Gandhi in his appeal.</p><p>1. Complainant had no right to file defamation complaint; only Narendra Modi could have filed complaint</p><p>Gandhi has contended that the complainant Purnesh Modi was not an aggrieved person for the purposes of Section 499 of the Indian Penal Code (IPC), which criminalises defamation, and thus had no right to file the complaint.</p><p>It has been pointed out that normally, criminal law can be set in motion by anybody, but so far as the offence of defamation under Sections 499 and 500 is concerned, only a person aggrieved by the offence can file the complaint.</p><p>\"...for the alleged imputations against Shri Narendra Modi individually,&nbsp;only Shri Narendra Modi can be considered as the person aggrieved of the offence of defamation and only Shri Narendra Modi can file a complaint&nbsp;for the same and Shri Purnesh Modi the respondent/complainant has no right to file the complaint on his behalf...\"</p><p>Merely because the complainant is a Modi and the defamatory imputation has a word 'Modi', the complainant does not get the right to file the complaint, it is argued.</p><p><strong>2. Opposition leader has to be vocal critic of the government&nbsp;</strong></p><p>In his appeal, Gandhi has said that he being an opposition leader, he has to be vigilant and critical of the government. While serving his duty as a critic of the government, he is bound to cause annoyance and embarassment to those in power.</p><p>\"By the very nature of his task, a&nbsp;politician in opposition cannot always weigh his words in golden scales. Hence it is incumbent upon the courts to focus on the essence and spirit of the speech&nbsp;made rather than on the tone and tenor,\"&nbsp;the appeal states.&nbsp;</p><p>Gandhi pointed out that in his statement, as many as six people were mentioned as economic beneficiaries, namely Nirav Modi, Mehul Choksi, Vijay Mallya, Lalit Modi and Anil Ambani.&nbsp;</p><p>\"It is the undisputed position that some of these persons did not carry or bear ‘Modi’ as the caste or surname. What distinguishes these persons as a group, was the manner in which they carried out their economic activity to the detriment of the national interest and their apparent closeness with the powers that be,\"&nbsp;he highlighted.&nbsp;</p><p><strong>3. Merely because complainant was shocked or his reputation was hurt, doesn't make him an aggrieved person</strong></p><p>Gandhi has pointed out that the trial court convicted on the basis of two reasons - that the complainant was shocked at this statements, and that his reputation was hurt. It is contended that these reasons do not make Purnesh Modi an aggrieved person for the purposes of Sections 499 and 500 IPC.</p><p>\"A person having extremely sentimental nature would be shocked even if imputations is hurled not upon him, but on others, such a person can't be termed as person aggrieved of the offence. The person would be aggrieved, if imputation is against him individually or as a member of a company, an association or collection of persons, that collection of persons being a definite, well-defined, identifiable, determinate group...\"</p><p><strong>4. Trial court has not dealt with Modis as a Modi Samaj; complainant was not defamed as member of the Modi Samaj</strong></p><p>Gandhi has stated there is no Modi Samaj or community established on record for him to have defamed an entire community.</p><p>\"The Modh Vanik Samaj and Modh Ganchi Samaj are the communities which are existing for years together. The constitution and other documents relating to the Modh Gachi Samaj or Modh Vanik Samaj have been brought on record and an attempt is made to show that they exist for a long time. But in these documents produced by the respondent/complainant, there is nowhere mention of Modi Samaj.\"</p><p>He adds that it is widely known that the surname ‘Modi’ is used even within Muslims and Parsis, besides a number of Hindu castes.</p><p>The plea further states,</p><p>\"Modis are 13 crores and obviously as per the ratio of the aforesaid judgments all 13 crore people will not have a right to file the complaint because it is not identifiable, definite, determinate group or collection of persons...\"</p><p><strong>5. Complaint is politically motivated</strong></p><p>The plea points out that Purnesh Modi's complaint was filed in hot haste with a view to use the same for electoral purposes in the run-up to the 2019 Lok Sabha elections.</p><p>\"It is obvious to a critical reader of the complaint and the evidence that the real grievance was the factum of the alleged speech being sharply critical of the head of the Government...The complainant admittedly was an MLA of the Bhartiya Janata Party at the relevant time and was in-charge of the election to one of the Lok Sabha constituencies, which followed after the alleged speech.\"</p><p><strong>6. Perfunctory manner of determining sentence \"shocking\"</strong></p><p>The plea states that the offence of defamation falls within the category of ‘summons case’ as defined in Section 2(w) of the Criminal Procedure Code, 1973. However, in the present case, the procedure of a ‘warrant case’ was adopted.</p><p>\"A summary inquiry was held on the question of appropriate sentence. The issue of grant of probation, which is mandatory in a case like the present one, does not even find a passing reference in the order of sentence and the Ld Trial Court proceeded to award the maximum punishment without giving any adequate opportunity to the parties to assist the Court in this regard.\"</p><p>Further, immediately on pronouncing Gandhi guilty, without giving him an opportunity of composing himself, assessing the situation and consulting the lawyer, the court asked him to make his submissions on the question of sentence.</p><p>\"The sentencing order does not even show that the Ld Trial Judge took into consideration the fact that the accused was being awarded the maximum permissible sentence of imprisonment.\"</p><p>Gandhi has also referred to a part of the judgment in which the trial court referred to an instance when the Supreme Court admonished him. Taking exception to this, the plea states,</p><p>\"The Ld. Trial Judge hastily referred to a case where the Hon’ble Supreme Court statedly admonished the Petitioner. No attention was given to the fact that the Petitioner was a first-time offender. He never appeared before the Supreme Court in that case as an offender charged with an offence. The order of the Hon’ble Apex Court did not in any manner provide admissible or relevant material for the Ld. Trial Judge to proceed to award exemplary punishment using the same as crutches.\"</p><p><strong>7. Judge should have been aware that two-year sentence would lead to disqualification&nbsp;</strong></p><p>Gandhi has argued that the judge failed to refer to any precedent where in an offence of defamation, the maximum sentence has been imposed to support the finding of sentence.&nbsp;</p><p>The judge had taken the view that a Member Parliament deserves to be awarded the highest punishment because of his status. On this aspect, Gandhi stated,</p><p><em>\"It is therefore expected that the Trial Judge would also be aware of the consequences of awarding a sentence of two years, namely mandatory disqualification. Such disqualification entails the rejection of the mandate of the electorate at one hand and huge burden on the exchequer on the other. It is therefore expected that the Judge would make a mention of a consequence of this nature in the sentencing order.\"</em></p>",
+  "date": "2023-04-04T10:01",
+  "image": "/images/blog9.jpg"
+}]
