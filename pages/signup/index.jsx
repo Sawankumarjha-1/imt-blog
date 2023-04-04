@@ -3,11 +3,12 @@ import Head from "next/head";
 import styles from "../../styles/variable.module.scss";
 import { useState } from "react";
 
-import { hasCookie, getCookie } from "cookies-next";
+import { hasCookie } from "cookies-next";
+import Router from "next/router";
 
 function Signup() {
   if (hasCookie("email")) {
-    window.location.href = "/";
+    Router.push("/");
   }
   const [successfull, setSuccessfull] = useState(false);
   const [signup, setSignup] = useState({
@@ -59,7 +60,7 @@ function Signup() {
           <p>Signup Successfully...</p>
           <button
             onClick={() => {
-              window.location.href = "/";
+              Router.push("/");
             }}
           >
             OK
