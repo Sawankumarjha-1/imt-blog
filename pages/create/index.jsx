@@ -2,11 +2,12 @@ import Head from "next/head";
 
 import Layout from "@/components/layout";
 import styles from "../../styles/variable.module.scss";
-
+import Image from "next/image";
 import dynamic from "next/dynamic";
 import "suneditor/dist/css/suneditor.min.css";
 import { useEffect, useState } from "react";
 import { hasCookie } from "cookies-next";
+import Router from "next/router";
 const SunEditor = dynamic(() => import("suneditor-react"), {
   ssr: false,
 });
@@ -14,11 +15,11 @@ const SunEditor = dynamic(() => import("suneditor-react"), {
 export default function Create() {
   useEffect(() => {
     if (hasCookie("email") === false) {
-      window.location.href = "/";
+      Router.push("/");
     }
   }, []);
   const [image, setImage] = useState(null);
-  const [createObjectURL, setCreateObjectURL] = useState(null);
+  const [createObjectURL, setCreateObjectURL] = useState("");
   const [uploadDisable, setUploadDisable] = useState(false);
   const [content, setContent] = useState("");
   const [data, setData] = useState({
@@ -97,7 +98,7 @@ export default function Create() {
       }
       if (result.status == "200") {
         alert("Blog Submit Successfully");
-        window.location.href = "/create";
+        Router.push("/create");
       }
     }
   };
@@ -111,7 +112,7 @@ export default function Create() {
       <main className={styles.page}>
         <div className={styles.uploadImage}>
           <div>
-            <img src={createObjectURL} width="200" height="200" />
+            <Image src={createObjectURL} width="200" height="200" alt="" />
 
             <div className={styles.uploadBtn}>
               <input type="file" name="myImage" onChange={uploadToClient} />
