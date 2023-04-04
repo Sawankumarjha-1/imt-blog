@@ -6,7 +6,7 @@ import Head from "next/head";
 import { AiOutlineSend } from "react-icons/ai";
 import { useState } from "react";
 import sanitizeHtml from "sanitize-html";
-import { useRouter } from "next/navigation";
+import Router from "next/navigation";
 
 const defaultOptions = {
   allowedTags: ["b", "i", "em", "strong", "a"],
@@ -30,7 +30,7 @@ export default function Posts({ data, commentData }) {
   };
 
   const [comment, setComment] = useState({ email: "", comment: "" });
-  const Router = useRouter();
+
   let submitForm = async (e) => {
     let res = await fetch("http://localhost:3000/api/cpost", {
       method: "POST",
